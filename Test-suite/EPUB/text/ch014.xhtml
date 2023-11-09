@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops"
+  xml:lang="en-gb"
+  lang="en-gb">
+  <head>
+    <meta
+      charset="utf-8" />
+
+    <title>Test 6: specific contents</title>
+    <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: 1;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src=".../div/script.js"></script>
+  <script src=".../div/modal.js"></script>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../styles/abelab-remediation-test-suite.css" />
+  </head>
+  <body
+    epub:type="bodymatter">
+    <div
+      id="test-6-specific-contents"
+      class="level2"
+      data-number="2.6">
+      <p>
+        <span
+          epub:type="pagebreak"
+          role="doc-pagebreak"
+          id="page10"
+          aria-label="Page 10. "></span>
+      </p>
+      <h2
+        data-number="2.6">Test 6: specific contents</h2>
+      <div
+        id="forms"
+        class="level3"
+        data-number="2.6.1">
+        <h3
+          data-number="2.6.1">Forms</h3>
+          <p>Example taken from <a href="https://www.accessibility-developer-guide.com/examples/forms/bad-example/">Accessibility developper guide General bad form example</a> provided under MIT licence by «Access for all», Swiss Foundation for technologies that fit the needs of persons with disabilities.</p>
+          <div class="control">
+            <label>Full name</label><input type="text" />
+          </div>
+          <div class="control">
+            <label>Biography</label><textarea></textarea>
+          </div>
+          <div class="fieldset">
+            <div class="legend">
+              Gender
+            </div>
+            <div class="control">
+              <input name="gender" type="radio" value="male" />
+              <div class="label">
+                Male
+              </div>
+            </div>
+            <div class="control">
+              <input name="gender" type="radio" value="female" />
+              <div class="label">
+                Female
+              </div>
+            </div>
+          </div>
+          <a id="button" onclick="alert(&#39;Submitting using fancy JavaScript...&#39;)">Submit</a>
+          <p
+          style="text-align:left;">
+          <b>To test: find and fix the non accessible form</b>
+        </p>
+      </div>
+      <div
+        id="scripts"
+        class="level3"
+        data-number="2.6.2">
+        <h3
+          data-number="2.6.2">Scripts</h3>
+          <p
+          style="text-align:left;">
+          <b>To test: find and fix the script</b>
+        </p>
+ 
+          <div class="snippet-result">
+            <div class="snippet-ctas">
+              <button type="button" class="s-btn s-btn__filled">
+                <svg aria-hidden="true" class="svg-icon iconPlay" width="17" height="18" viewBox="0 0 17 18">
+                  <path d="M3 2.87a1 1 0 0 1 1.55-.83l9.2 6.13a1 1 0 0 1 0 1.66l-9.2 6.13A1 1 0 0 1 3 15.13V2.87Z">
+                  </path></svg>
+                  <span> Run code snippet</span>
+                </button>
+                <input class="copySnippet s-btn s-btn__outlined" type="button" value="Copy snippet to answer" style="display: none;"><button type="button" class="s-btn hideResults" style="">Hide results</button><div class="popout-code" style="display: none;"><a class="snippet-expand-link">Expand snippet</a></div></div><div class="snippet-result-code" style=""><iframe name="sif2" sandbox="allow-forms allow-modals allow-scripts" class="snippet-box-edit snippet-box-result" frameborder="0"></iframe></div></div></div>
+          </div>
+
+          <h2>Modal window example 1</h2>
+<button class="modal__show">Show Modal</button>
+<ul>
+  <li><a href="#">Element 1</a></li>
+  <li><a href="#">Element 2</a></li>
+</ul>
+
+<div class="modal" id="modal">
+  <div class="modal__content">
+    <h2>Modal</h2>
+
+    
+    <form action="#">
+      <p>
+        <label for="firstname">First name</label>
+        <input type="text" id="firstname" />
+      </p>
+      <p>
+        <label for="lastname">First name</label>
+        <input type="text" id="lastname" />
+      </p>
+      
+      <button>Send</button>
+    </form>
+
+    <button class="modal__close">
+      close
+    </button> <!-- .modal__close -->
+  </div> <!-- .modal__content -->
+</div> <!-- .modal -->
+
+      </div>
+      <div
+        id="maths-contents"
+        class="level3"
+        data-number="2.6.3">
+        <h3
+          data-number="2.6.3">Maths contents</h3>
+          <p>Examples adapted from Daisy Transition to epub <a href="https://github.com/daisy/transitiontoepub/tree/main/best-practices/mathML">MathML best practices</a></p>
+          <h4>Math as plain text</h4>
+          <p class="formula"><span>∇&#x1d453;(&#x1d465;) = 2&#x1d465;</span>
+          <p class="formula"><span>lim {x → ∞} 1/x = 0</span></p>
+          </p>
+          <h4>Math as MathML</h4>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mrow>
+              <mi mathvariant="normal">∇</mi>
+              <mi>f</mi>
+              <mo form="prefix" stretchy="false">(</mo>
+              <mi>x</mi>
+              <mo form="postfix" stretchy="false">)</mo>
+              <mo>=</mo>
+              <mn>2</mn>
+              <mi>x</mi>
+            </mrow>
+          </math>
+        </div>
+
+      <div
+        id="video-contents"
+        class="level3"
+        data-number="2.6.4">
+        <h3
+          data-number="2.6.4">Video contents</h3>
+          <video width="320" height="240" controls>
+            <source src="../media/Readium-LCP-introduction.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+      </div>
+      <div
+        id="audio-contents"
+        class="level3"
+        data-number="2.6.5">
+        <h3
+          data-number="2.6.5">Audio contents</h3>
+          <audio controls>
+            <source src="../media/videoplayback.mp3" type="audio/mp3">
+          Your browser does not support the audio element.
+          </audio>
+      </div>
+    </div>
+  </body>
+</html>

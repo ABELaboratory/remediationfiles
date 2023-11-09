@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops"
+  xml:lang="en-gb"
+  lang="en-gb">
+  <head>
+    <meta
+      charset="utf-8" />
+
+    <title>WordToEPUB</title>
+    <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: 1;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="styles/abelab-remediation-test-suite.css" />
+  </head>
+  <body
+    epub:type="frontmatter">
+    <nav
+      role="doc-toc"
+      id="toc"
+      epub:type="toc"
+      aria-labelledby="toc-title">
+      <h1
+        id="toc-title">Test-suite</h1>
+      <ol
+        class="toc">
+        <li
+          id="toc-li-1">
+          <a
+            href="text/ch001.xhtml#remediation-steps">Remediation steps</a>
+          <ol
+            class="toc">
+            <li
+              id="toc-li-2">
+              <a
+                href="text/ch002.xhtml#pdf-to-pdfua-compliant-to-wcag-2.1-level-aa">1. PDF to PDF/UA (compliant to WCAG 2.1, level AA)</a>
+            </li>
+            <li
+              id="toc-li-3">
+              <a
+                href="text/ch003.xhtml#pdf-to-reflowable-epub3-compliant-epub-accessibility-1.1-wcag-2.1-level-aa">2. PDF to Reflowable EPUB3 (compliant EPUB Accessibility 1.1, WCAG 2.1, level AA)</a>
+            </li>
+            <li
+              id="toc-li-4">
+              <a
+                href="text/ch004.xhtml#fxl-to-accessible-fxl-compliant-epub-accessibility-1.1-wcag-2.1-level-aa">3. FXL to «accessible» FXL (compliant EPUB Accessibility 1.1, WCAG 2.1, level AA)</a>
+            </li>
+            <li
+              id="toc-li-5">
+              <a
+                href="text/ch005.xhtml#fxl-to-reflowable-epub3-compliant-epub-accessibility-1.1-wcag-2.1-level-aa">4. FXL to Reflowable EPUB3 (compliant EPUB Accessibility 1.1, WCAG 2.1, level AA)</a>
+            </li>
+            <li
+              id="toc-li-6">
+              <a
+                href="text/ch006.xhtml#epub2-to-epub3-compliant-epub-accessibility-1.1-wcag-2.1-level-aa">EPUB2 to EPUB3 (compliant EPUB Accessibility 1.1, WCAG 2.1, level AA)</a>
+            </li>
+            <li
+              id="toc-li-7">
+              <a
+                href="text/ch007.xhtml#reflowable-epub-to-reflowable-epub3-compliant-epub-accessibility-1.1-wcag-2.1-level-aa">5. Reflowable EPUB to Reflowable EPUB3 (compliant EPUB Accessibility 1.1, WCAG 2.1, level AA)</a>
+            </li>
+          </ol>
+        </li>
+        <li
+          id="toc-li-8">
+          <a
+            href="text/ch008.xhtml#remediation-unit-tests">Remediation unit tests</a>
+          <ol
+            class="toc">
+            <li
+              id="toc-li-9">
+              <a
+                href="text/ch009.xhtml#left-test-1-add-missing-accessibility-metadata">Test 1: Add Missing Accessibility Metadata</a>
+            </li>
+            <li
+              id="toc-li-10">
+              <a
+                href="text/ch010.xhtml#left-5test-2-non-reflowable-content">Test 2: Non Reflowable content</a>
+            </li>
+            <li
+              id="toc-li-11">
+              <a
+                href="text/ch011.xhtml#left-6test3-missing-or-bad-textual-alternative-for-non-decorative-graphical-resources">Test3: Missing or bad textual alternative for non decorative graphical resources</a>
+              <ol
+                class="toc">
+                <li
+                  id="toc-li-12">
+                  <a
+                    href="text/ch011.xhtml#left-image-type1-diagram">Image type1: diagram</a>
+                </li>
+                <li
+                  id="toc-li-13">
+                  <a
+                    href="text/ch011.xhtml#image-type-2-asterism-and-contenjt-breakers">Image type 2: asterism and contenjt breakers</a>
+                </li>
+                <li
+                  id="toc-li-14">
+                  <a
+                    href="text/ch011.xhtml#image-type-3-art">Image type 3: art</a>
+                </li>
+              </ol>
+            </li>
+            <li
+              id="toc-li-15">
+              <a
+                href="text/ch012.xhtml#left-7test-4-missing-or-bad-language-tag">Test 4: Missing or bad Language Tag</a>
+            </li>
+            <li
+              id="toc-li-16">
+              <a
+                href="text/ch013.xhtml#left-8test-5-ace-issues">Test 5: ACE issues</a>
+              <ol
+                class="toc">
+                <li
+                  id="toc-li-17">
+                  <a
+                    href="text/ch013.xhtml#empty-table-header">1. Empty-Table-Header</a>
+                </li>
+                <li
+                  id="toc-li-18">
+                  <a
+                    href="text/ch013.xhtml#empty-heading">2. Empty-Heading</a>
+                </li>
+                <li
+                  id="toc-li-19">
+                  <a
+                    href="text/ch013.xhtml#heading-order">3. Heading-Order</a>
+                </li>
+                <li
+                  id="toc-li-20">
+                  <a
+                    href="text/ch013.xhtml#html-has-lang">4. Html-Has-Lang</a>
+                </li>
+                <li
+                  id="toc-li-21">
+                  <a
+                    href="text/ch013.xhtml#link-in-text-block">5. Link-In-Text-Block</a>
+                </li>
+                <li
+                  id="toc-li-22">
+                  <a
+                    href="text/ch013.xhtml#color-contrast">6. Color-Contrast</a>
+                </li>
+                <li
+                  id="toc-li-23">
+                  <a
+                    href="text/ch013.xhtml#aria-allowed-role">7. Aria-Allowed-Role</a>
+                </li>
+                <li
+                  id="toc-li-24">
+                  <a
+                    href="text/ch013.xhtml#aria-roles">8. Aria-Roles</a>
+                </li>
+                <li
+                  id="toc-li-25">
+                  <a
+                    href="text/ch013.xhtml#epub-pagelist-broken">9. Epub-Pagelist-Broken</a>
+                </li>
+                <li
+                  id="toc-li-26">
+                  <a
+                    href="text/ch013.xhtml#epub-type-has-matching-role">10. Epub-Type-Has-Matching-Role</a>
+                </li>
+                <li
+                  id="toc-li-27">
+                  <a
+                    href="text/ch013.xhtml#landmark-unique">11. Landmark-Unique</a>
+                </li>
+
+                <li
+                  id="toc-li-29">
+                  <a
+                    href="text/ch013.xhtml#link-name">13. Link-Name</a>
+                </li>
+                <li
+                  id="toc-li-30">
+                  <a
+                    href="text/ch013.xhtml#document-title">14. Document-Title</a>
+                </li>
+                <li
+                id="toc-li-28">
+                <a
+                  href="text/ch013.xhtml#epub-toc-order">12. Epub-Toc-Order</a>
+              </li>
+              </ol>
+            </li>
+            <li
+              id="toc-li-31">
+              <a
+                href="text/ch014.xhtml#test-6-specific-contents">Test 6: specific contents</a>
+              <ol
+                class="toc">
+                <li
+                  id="toc-li-32">
+                  <a
+                    href="text/ch014.xhtml#forms">Forms</a>
+                </li>
+                <li
+                  id="toc-li-33">
+                  <a
+                    href="text/ch014.xhtml#scripts">Scripts</a>
+                </li>
+                <li
+                  id="toc-li-34">
+                  <a
+                    href="text/ch014.xhtml#maths-contents">Maths contents</a>
+                </li>
+                <li
+                  id="toc-li-35">
+                  <a
+                    href="text/ch014.xhtml#video-contents">Video contents</a>
+                </li>
+                <li
+                  id="toc-li-36">
+                  <a
+                    href="text/ch014.xhtml#audio-contents">Audio contents</a>
+                </li>
+              </ol>
+            </li>
+            <li
+              id="toc-li-37">
+              <a
+                href="text/ch015.xhtml#test-7.-reflowable-restrictions">test 7. Reflowable restrictions</a>
+            </li>
+          </ol>
+        </li>
+        <li
+          id="toc-li-38">
+          <a
+            href="text/ch016.xhtml#information-about-this-digital-version">Information About This Digital Version</a>
+        </li>
+      </ol>
+    </nav>
+    <nav
+      epub:type="landmarks"
+      id="landmarks"
+      aria-label="Landmarks"
+      hidden="hidden">
+      <ol>
+        <li>
+          <a
+            href="text/ch001.xhtml"
+            epub:type="bodymatter">Start of Content</a>
+        </li>
+        <li>
+          <a
+            href="text/ch013.xhtml"
+            epub:type="bodymatter">Start of tests</a>
+        </li>
+      </ol>
+    </nav>
+    <nav
+      role="doc-pagelist"
+      id="page-list"
+      hidden="hidden"
+      aria-label="Page list"
+      epub:type="page-list">
+      <ol>
+        <li>
+          <a
+            href="text/ch001.xhtml#page1">1</a>
+        </li>
+        <li>
+          <a
+            href="text/ch001.xhtml#page2">2</a>
+        </li>
+        <li>
+          <a
+            href="text/ch001.xhtml#page3">3</a>
+        </li>
+        <li>
+          <a
+            href="text/ch008.xhtml#page4">4</a>
+        </li>
+        <li>
+          <a
+            href="text/ch010.xhtml#page5">5</a>
+        </li>
+        <li>
+          <a
+            href="text/ch011.xhtml#page6">6</a>
+        </li>
+        <li>
+          <a
+            href="text/ch012.xhtml#page7">7</a>
+        </li>
+        <li>
+          <a
+            href="text/ch013.xhtml#page8">8</a>
+        </li>
+        <li>
+          <a
+            href="text/ch013.xhtml#page9">9</a>
+        </li>
+        <li>
+          <a
+            href="text/ch013.xhtml#wrongpage">9 wrong</a>
+        </li>
+        <li>
+          <a
+            href="text/ch013.xhtml#nonexistingpage"></a>
+        </li>
+        <li>
+          <a
+            href="text/ch014.xhtml#page10">10</a>
+        </li>
+        <li>
+          <a
+            href="text/ch015.xhtml#page11">11</a>
+        </li>
+        <li>
+          <a
+            href="text/ch015.xhtml#page12">12</a>
+        </li>
+        <li>
+          <a
+            href="text/ch015.xhtml#page13">13</a>
+        </li>
+        <li>
+          <a
+            href="text/ch015.xhtml#page14">14</a>
+        </li>
+        <li>
+          <a
+            href="text/ch015.xhtml#page15">15</a>
+        </li>
+        <li>
+          <a
+            href="text/ch015.xhtml#page16">16</a>
+        </li>
+        <li>
+          <a
+            href="text/ch015.xhtml#page17">17</a>
+        </li>
+        <li>
+          <a
+            href="text/ch015.xhtml#page18">18</a>
+        </li>
+        <li>
+          <a
+            href="text/ch015.xhtml#page19">19</a>
+        </li>
+        <li>
+          <a
+            href="text/ch015.xhtml#page20">20</a>
+        </li>
+        <li>
+          <a
+            href="text/ch015.xhtml#page21">21</a>
+        </li>
+        <li>
+          <a
+            href="text/ch015.xhtml#page22">22</a>
+        </li>
+        <li>
+          <a
+            href="text/ch015.xhtml#page23">23</a>
+        </li>
+      </ol>
+    </nav>
+  </body>
+</html>
